@@ -1,0 +1,95 @@
+/* generell css */
+.wrapper {
+
+}
+
+#hd1 {
+    grid-area: hd1;
+    background-color: blue;
+}
+
+#nav1 {
+    grid-area: nav1;
+    background-color: black;
+}
+
+#mn1 {
+    grid-area: mn1;
+    background-color: green;
+}
+
+#sc1 {
+    grid-area: sc1;
+    background-color: yellow;
+}
+
+#ft1 {
+    grid-area: ft1;
+    background-color: red;
+}
+
+#ft1 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* telefon bara! */
+@media screen and (max-width:500px) {
+
+    #wrapper {
+        display: grid;
+        grid-template-areas:
+        "hd1"
+        "nav1"
+        "mn1"
+        "sc1"
+        "ft1";
+        grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+        max-width: 100vw;
+    }
+
+    #sc1 img {
+        object-fit: contain;
+        width: 100%;
+    }
+    #ft1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+   
+
+
+}
+
+/* bara desktop */
+@media screen and (min-width:501px) {
+    #wrapper {
+        display: grid;
+        grid-template-areas: 
+        "hd1 hd1 hd1"
+        "nav1 mn1 mn1"
+        "nav1 sc1 sc1"
+        "ft1 ft1 ft1";
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #sc1 img {
+        width: 500px;
+        height: 500px;
+    }
+
+    
+
+
+}
