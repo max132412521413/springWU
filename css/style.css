@@ -7,14 +7,22 @@
   src: url('./font/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2') format('woff2');
 }
 
+
 .wrapper {
 
 }
 
 #hd1 {
     grid-area: hd1;
-    background-color: blue;
+    background-color: white;
     font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hd1 img {
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -64,6 +72,17 @@
         box-shadow: 10px 0px 21px -10px;
         z-index: 10;
     }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .menu a {
+    text-decoration: none;
+    color: black;
+}
 
     .menu-button {
         cursor: pointer;
@@ -155,6 +174,40 @@
         "nav1 sc1 sc1"
         "ft1 ft1 ft1";
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #hd1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #hd1 h1 {
+        font-size: 30px;
+        display: flex;
+    }
+
+    #hd1 div {
+        width: 100px;
+        
+    }
+
+    #hd1 img {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-self: flex-end;
+    }
+
+    #hd1 i {
+        display: none;
+    }
+
+    .menu-button {
+        display: none;
     }
 
     #sc1 img {
