@@ -28,22 +28,22 @@
 
 #nav1 {
     grid-area: nav1;
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 #mn1 {
     grid-area: mn1;
-    background-color: green;
+    background-color: white;
 }
 
 #sc1 {
     grid-area: sc1;
-    background-color: yellow;
+    background-color: white;
 }
 
 #ft1 {
     grid-area: ft1;
-    background-color: red;
+    background-color: whitesmoke;
 }
 
 #ft1 a {
@@ -64,7 +64,7 @@
     .menu {
         height: 100vh;
         width: 80vw;
-        background-color: hotpink;
+        background-color: whitesmoke;
         position: fixed;
         top: 0;
         left: -90vw;
@@ -82,6 +82,12 @@
     .menu a {
     text-decoration: none;
     color: black;
+    font-size: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
 }
 
     .menu-button {
@@ -139,6 +145,33 @@
         max-width: 100vw;
     }
 
+    #nav1 li {
+        display: none;
+    }
+
+    #nav1 {
+    }
+
+    #nav1 img {
+        width: 100%;
+        height: 98%;
+        gap: 15px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    #mn1 img {
+        width: 100%;
+        height: 77%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    #mn1 h3, p {
+        text-align: center;
+        line-height: 27px;
+    }
+
     #hd1 {
         text-align: left;
         padding-left: 20px;
@@ -150,6 +183,7 @@
     #sc1 img {
         object-fit: contain;
         width: 100%;
+        border-radius: 15px;
     }
     #ft1 {
         display: flex;
@@ -210,9 +244,71 @@
         display: none;
     }
 
+    #nav1 ul {
+       font-size: 1.5rem;
+        color: black;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+    #nav1 {
+        object-fit: cover;
+        border-radius: 25px;
+        gap: 15px;
+    }
+    #nav1 a  {
+        text-decoration: none;
+        color: black;
+    }
+
+    #nav1 img {
+    display: none;
+}
+
+    #mn1 h3 {
+        padding-left: 20px;
+    }
+
+    #mn1 img {
+        display: none;
+    }
+
+    #mn1 p {
+        padding-left: 20px;
+        line-height: 25px;
+    }
+
+    #sc1 {
+        display: flex;
+        justify-content: center;
+    }
+
     #sc1 img {
         width: 500px;
-        height: 500px;
+        height: 350px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    #ft1 h2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+    #ft1 p {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;   
+    }
+
+    #ft1 {
+        border-radius: 25px;
+        gap: 15px;
     }
 
     
