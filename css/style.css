@@ -51,6 +51,16 @@
     color: black;
 }
 
+#ft2 {
+    grid-area: ft1;
+    background-color: whitesmoke;
+}
+
+#ft2 a {
+    text-decoration: none;
+    color: black;
+}
+
 
 
 
@@ -192,6 +202,56 @@
         align-items: center;
     }
 
+    #ft2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #nav2 ul {
+        display: none;
+    }
+
+    #nav2 h1 {
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    #nav2 p {
+        text-align: left;
+    }
+
+    #nav2 h3 {
+        padding-top: 75px;
+    }
+
+    #mn2 h1 {
+        display: none;
+    }
+
+    #mn2 p {
+        text-align: left;
+    }
+
+    #sc2 {
+
+    }
+
+    #sc2 p {
+        text-align: left;
+    }
+
+    #nav2 img {
+        border-radius: 20px;
+    }
+    #mn2 img {
+        border-radius: 20px;
+    }
+    #sc2 img {
+        border-radius: 20px;
+        object-fit: cover;
+    }
 
    
 
@@ -259,6 +319,7 @@
         border-radius: 25px;
         gap: 15px;
     }
+
     #nav1 a  {
         text-decoration: none;
         color: black;
@@ -309,9 +370,93 @@
     #ft1 {
         border-radius: 25px;
         gap: 15px;
+        width: auto;
     }
 
-    
+    #nav2 {
+        padding: 10px;
+        width: auto;
+    }
 
+    #mn2 {
+        padding: 10px;
+        width: auto;
+    } 
 
+    #sc2 {
+        padding: 10px;
+    }
+
+    #mn2 h3 {
+
+        padding-top: 75px;
+    }
+
+    #nav2 h1 {
+        display: none;
+    }
+
+    #nav2 ul a {
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+    }
+
+    #nav2 li {
+        font-size: 1.5rem;
+        border-radius: 20px;
+
+    }
+
+    #nav2 div {
+        background-color: whitesmoke;
+        display: inline-block;
+        border-radius: 20px;
+
+    }
+
+    #sc2 h3 {
+        padding-top: 135px;
+    }
+
+    #nav2 img {
+        border-radius: 25px;
+        height: 749px;
+        width: 500px;
+        
+    }
+    #mn2 img {
+        border-radius: 25px;
+        
+    }
+    #sc2 img {
+       border-radius: 25px; 
+       
+    }
+
+    #ft2 h2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+    #ft2 p {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;   
+    }
+
+    #ft2 {
+        border-radius: 25px;
+        gap: 15px;
+        width: auto;
+    }
+
+    #wrapper {
+        overflow-x: hidden;
+    }
 }
+
+
+/* Om oss-sidan /* 
