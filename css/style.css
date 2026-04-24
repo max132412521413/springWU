@@ -434,7 +434,7 @@
     display: none;
 }
 
-    #mn1 h3 {
+    #mn1 h2 {
         padding-left: 20px;
     }
 
@@ -445,6 +445,7 @@
     #mn1 p {
         padding-left: 20px;
         line-height: 25px;
+        
     }
 
     #sc1 {
@@ -488,8 +489,16 @@
         width: auto;
     } 
 
+    #mn2 h2 {
+        padding-top: 75px;
+    }
+
     #sc2 {
         padding: 10px;
+    }
+
+    #sc2 h2 {
+        padding-top: 140px;
     }
 
     #mn2 h3 {
@@ -564,7 +573,7 @@
         border-radius: 20px;
     }
 
-    #mn3 h1, h3, h4 {
+    #mn3 h1, h2, h4 {
         padding-left: 20px;
     }
 
@@ -577,7 +586,7 @@
         justify-content: space-evenly;
     }
 
-    #nav3 h1, p {
+    #nav3 h1 {
         display: none;
     }
 
@@ -592,6 +601,10 @@
         width: 500px;
         border-radius: 25px;
         padding: 20px;
+    }
+
+    #mn3 p {
+        padding: 15px;
     }
 
 
